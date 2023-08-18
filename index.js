@@ -11,6 +11,11 @@ class _ {
     }
     return newArray
   }
+
+  static compact(array) {
+    let newArray = array.filter( val => {return Boolean(val) === true} )
+    return newArray
+  }
 }
 
 module.exports = _;
