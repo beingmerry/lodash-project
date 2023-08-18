@@ -1,3 +1,4 @@
+
 class _ {
   static name_of_method () {
     // code
@@ -11,3 +12,5 @@ class _ {
     return newArray
   }
 }
+
+module.exports = _;
